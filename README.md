@@ -17,3 +17,6 @@
     // XP or else they lose.                                                                               //                                    
     //                                                                                                     //                                   
     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    
+    
+Map is a randomized one dimensional array of chars. Each space is assigned either a monster, loot, or nothing. The player navigates by rolling a d6. When a monster is encountered, the player may dismount and engage in combat, rolling another d6 for attack + a weapon modifier. When they pass over a weapon, it is automatically swapped out with the current one if it has a higher attack. When in an empty space, the player may dismount and rest for a small amount of XP. At the end of the array, the final space is the final boss, a dragon. Game interface is color-coded and user friendly, making it more pleasing to look at than white script on a black background.
